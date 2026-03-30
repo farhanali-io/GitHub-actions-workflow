@@ -1,0 +1,16 @@
+name : Farhan ali
+
+on: 
+  push:
+    branches: [ main ]
+
+jobs:
+  something:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Greetings
+      run: echo "hi i am farhan"
+
+
+
